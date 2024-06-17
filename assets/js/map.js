@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function () {
         
         // Example logic to adjust position based on screen size
         if (screenWidth >= 2560) {
-            popupTargetX = 470; // for large screens
+            popupTargetX = 870; // for large screens
             popupTargetY = 70;
         }
         else if (screenWidth < 1550) {
