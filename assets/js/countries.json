@@ -1,0 +1,261 @@
+{
+    "Netherlands": {
+        "Rail Company": "NS International",
+        "Available Online Ticketing": [
+            "Belgium",
+            "Germany",
+            "France",
+            "Denmark",
+            "Luxemburg",
+            "Austria",
+            "Italy",
+            "Czechia",
+            "Switzerland",
+            "Sweden",
+            "Hungary",
+            "Slovakia",
+            "Romania",
+            "Norway",
+            "Poland",
+            "Spain",
+            "UK"
+        ],
+        "Unavailable Online Ticketing": []
+    },
+    "Luxemburg": {
+        "Rail Company": "CFL",
+        "Available Online Ticketing": [
+            "Belgium",
+            "Netherlands",
+            "Denmark",
+            "Germany",
+            "Austria",
+            "France",
+            "Switzerland",
+            "Czechia",
+            "Slovakia",
+            "Hungary",
+            "Italy",
+            "Spain"
+        ],
+        "Unavailable Online Ticketing": []
+    },
+    "Finland": {
+        "Rail Company": "VR Group",
+        "Available Online Ticketing": [],
+        "Unavailable Online Ticketing": [
+            "Sweden"
+        ]
+    },
+    "France": {
+        "Rail Company": "SNCF VOYAGEURS",
+        "Available Online Ticketing": [
+            "Belgium",
+            "Netherlands",
+            "Luxembourg",
+            "Germany",
+            "Italy",
+            "Spain",
+            "Austria",
+            "UK"
+        ],
+        "Unavailable Online Ticketing": []
+    },
+    "Slovenia": {
+        "Rail Company": "Slovenian Railways-Passenger Transport",
+        "Available Online Ticketing": [
+            "no"
+        ],
+        "Unavailable Online Ticketing": []
+    },
+    "Germany": {
+        "Rail Company": "DB Fernverkehr AG (Deutsche Bahn)",
+        "Available Online Ticketing": [
+            "Austria",
+            "Switzerland",
+            "France",
+            "Luxemburg",
+            "Netherlands",
+            "Belgium",
+            "Denmark",
+            "Czechia",
+            "Poland",
+            "Italy",
+            "Spain",
+            "Hungary",
+            "Slovakia",
+            "Slovenia",
+            "Croatia",
+            "Sweden"
+        ],
+        "Unavailable Online Ticketing": []
+    },
+    "UK": {
+        "Rail Company": "Eurostar Group",
+        "Available Online Ticketing": [
+            "France",
+            "Belgium",
+            "Netherlands"
+        ],
+        "Unavailable Online Ticketing": []
+    },
+    "Austria": {
+        "Rail Company": "ÖBB-Personenverkehr AG",
+        "Available Online Ticketing": [
+            "Germany",
+            "Switzerland",
+            "Italy",
+            "Czechia",
+            "Slovakia",
+            "Hungary",
+            "Croatia",
+            "Slovenia",
+            "Poland"
+        ],
+        "Unavailable Online Ticketing": []
+    },
+    "Portugal": {
+        "Rail Company": "CP – COMBOIOS DE PORTUGAL, E.P.E.",
+        "Available Online Ticketing": [
+            "Spain"
+        ],
+        "Unavailable Online Ticketing": []
+    },
+    "Hungary": {
+        "Rail Company": "MÁV-START",
+        "Available Online Ticketing": [
+            "Austria",
+            "Germany",
+            "Switzerland",
+            "Czechia",
+            "Slovakia",
+            "Poland",
+            "Croatia",
+            "Slovenia",
+            "Romania",
+            "Serbia"
+        ],
+        "Unavailable Online Ticketing": []
+    },
+    "Sweden": {
+        "Rail Company": "SJ AB",
+        "Available Online Ticketing": [
+            "Norway",
+            "Denmark",
+            "Germany"
+        ],
+        "Unavailable Online Ticketing": [
+            "Finland"
+        ]
+    },
+    "Poland": {
+        "Rail Company": "PKP INTERCITY S.A.",
+        "Available Online Ticketing": [
+            "Germany",
+            "Czechia",
+            "Austria",
+            "Slovakia",
+            "Hungary",
+            "Ukraine",
+            "Lithuania",
+            "Belarus"
+        ],
+        "Unavailable Online Ticketing": []
+    },
+    "Italy": {
+        "Rail Company": "Trenitalia S.p.A.",
+        "Available Online Ticketing": [
+            "France",
+            "Switzerland",
+            "Austria",
+            "Germany"
+        ],
+        "Unavailable Online Ticketing": []
+    },
+    "Denmark": {
+        "Rail Company": "DSB",
+        "Available Online Ticketing": [
+            "Germany",
+            "Sweden"
+        ],
+        "Unavailable Online Ticketing": []
+    },
+    "Slovakia": {
+        "Rail Company": "ZSSK",
+        "Available Online Ticketing": [
+            "Czechia",
+            "Austria",
+            "Hungary",
+            "Poland",
+            "Ukraine"
+        ],
+        "Unavailable Online Ticketing": []
+    },
+    "Croatia": {
+        "Rail Company": "HŽ Passenger Transpport",
+        "Available Online Ticketing": [],
+        "Unavailable Online Ticketing": [
+            "Serbia", "Bosnia and Herzegovina"
+        ]
+    },
+    "Czechia": {
+        "Rail Company": "Czech Railways",
+        "Available Online Ticketing": [
+            "Belgium",
+            "Bulgaria",
+            "Denmark",
+            "Croatia",
+            "Italy",
+            "Ireland",
+            "Luxembourg",
+            "Hungary",
+            "Germany",
+            "Poland",
+            "Netherlands",
+            "Austria",
+            "Romania",
+            "Slovakia",
+            "Slovenia",
+            "Sweden",
+            "Switzerland",
+            "Ukraine"
+        ],
+        "Unavailable Online Ticketing": []
+    },
+    "Switzerland": {
+        "Rail Company": "SBB",
+        "Available Online Ticketing": [
+            "France",
+            "Germany",
+            "Italy",
+            "Austria",
+            "Belgium",
+            "Netherlands",
+            "Luxemburg",
+            "Denmark",
+            "Czech Republic",
+            "Slovakia",
+            "Hungary",
+            "Slovenia",
+            "Croatia",
+            "Spain"
+        ],
+        "Unavailable Online Ticketing": []
+    },
+    "Greece": {
+        "Rail Company": "HELLENIC TRAIN SA",
+        "Available Online Ticketing": [],
+        "Unavailable Online Ticketing": [
+            "Bulgaria",
+            " North Macedonia, Albania"
+        ]
+    },
+    "Spain": {
+        "Rail Company": "Renfe",
+        "Available Online Ticketing": [
+            "Portugal",
+            "France"
+        ],
+        "Unavailable Online Ticketing": []
+    }
+}

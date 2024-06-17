@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.9" client="site" method="upgrade">
+    <name>Interactive map</name>
+    <creationDate>29th May, 2024</creationDate>
+<author>Patachon Louis - Agence Agerix</author>
+	<authorEmail>louis.patachon@agerix.fr</authorEmail>
+	<authorUrl>https://www.agerix.fr/</authorUrl>
+	<copyright>Copyright (C) 2024. All Rights Reserved</copyright>
+	<license>GNU/GPL Version 2 or later - http://www.gnu.org/licenses/gpl-2.0.html</license>
+    <version>1.0.0</version>
+    
+    <!-- Scripts to run on installation -->
+    <scriptfile>script.php</scriptfile>
+
+    <!-- Model files -->
+    <files>
+        <filename module="mod_interactive_map">mod_interactive_map.php</filename>
+        <folder>tmpl</folder>
+        <folder>assets</folder>
+    </files>
+</extension>
