@@ -88,16 +88,33 @@ document.addEventListener('DOMContentLoaded', function () {
         path.style.stroke = "#74A2C1";
         
         path.addEventListener('mouseover', function () {
-            if (!countrySelected) {
+            const countryId = path.id;
+
+            fetch('/modules/mod_interactive_map/assets/js/countries.json')
+            .then(response => response.json())
+            .then(data => {
+                const countryName = countryNames[countryId];
+
+            if (!countrySelected && data[countryName]) {
                 paths.forEach(p => {
                     if (p !== path) {
                         p.style.fill = "#E9F1F4";
                         p.style.stroke = "#AAC6D6";
                     }
+
                 });
-                path.style.fill = "#C7E4ED";
-                path.style.stroke = "#AAC6D6";
             }
+            if (!data[countryName]) {
+                path.style.fill = "#D3E8EF";
+                path.style.stroke = "#74A2C1";
+            }
+            
+        }
+        )
+        .catch(error => {
+            console.error(error);
+        });
+
         });
 
         path.addEventListener('mouseout', function () {
@@ -133,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 .then(response => response.json())
                 .then(data => {
                     const countryName = countryNames[countryId];
-
+                    
                     if (data[countryName]) {
 
                         const clickText = document.getElementById('click-text');
