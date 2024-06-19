@@ -1,4 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
+    
+    //on window resize, reload page
+    window.onresize = function(){ location.reload(); }
+    
+
     const countryNames = {
         ALBA: 'Albania',
         AUSTRIA: 'Austria',
@@ -42,16 +47,15 @@ document.addEventListener('DOMContentLoaded', function () {
     const greeceStartOffsets = { x: -25, y: -18 };
     const italyStartOffsets = { x: 20, y: 0 };
 
-
+    
     
     
     
     
     function getPopupPosition() {
         const screenWidth = window.innerWidth;
-        const screenHeight = window.innerHeight;
+        const screenHeight = window.innerHeight
         
-        console.log(screenWidth, screenHeight);
         let popupTargetX, popupTargetY;
         
         // Example logic to adjust position based on screen size
@@ -59,10 +63,13 @@ document.addEventListener('DOMContentLoaded', function () {
             popupTargetX = 870; // for large screens
             popupTargetY = 70;
         }
-        else if (screenWidth < 1550) {
-            popupTargetX = 30; // for small screens
+        else if (screenWidth < 1664 && screenWidth >= 1070) {
+            popupTargetX = -20; // for small screens
             popupTargetY = 30;
-            console.log('small screen');
+        }
+        else if (screenWidth < 1070){
+            popupTargetX = -20; 
+            popupTargetY = 10;
         }
          else if (screenWidth <= 2559 && screenWidth >= 1664) {
             popupTargetX = 450; // for medium screens
@@ -104,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
                 });
             }
-            if (!data[countryName]) {
+            if (!data[countryName] && !countrySelected) {
                 path.style.fill = "#D3E8EF";
                 path.style.stroke = "#74A2C1";
             }
@@ -166,7 +173,8 @@ document.addEventListener('DOMContentLoaded', function () {
                         popupCountry.textContent = countryName;
                         popupCompanyDesc.textContent = "Railway Company Name";
                         popupCompanyName.textContent = data[countryName]['Rail Company'];
-                        popupLink.href = "#";
+                        popupLink.href = data[countryName]['link'];
+                        popupLink.target = "_blank";
                         popupLink.textContent = "LINK TO WEBSITE";
 
                         const svg = document.querySelector('#interactive-map svg');

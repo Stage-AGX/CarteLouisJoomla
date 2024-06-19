@@ -20,7 +20,8 @@
             "Spain",
             "UK"
         ],
-        "Unavailable Online Ticketing": []
+        "Unavailable Online Ticketing": [],
+        "link": "https://www.ns.nl/"
     },
     "Luxemburg": {
         "Rail Company": "CFL",
@@ -38,14 +39,16 @@
             "Italy",
             "Spain"
         ],
-        "Unavailable Online Ticketing": []
+        "Unavailable Online Ticketing": [],
+        "link": "https://groupe.cfl.lu/fr-fr"
     },
     "Finland": {
         "Rail Company": "VR Group",
         "Available Online Ticketing": [],
         "Unavailable Online Ticketing": [
             "Sweden"
-        ]
+        ],
+        "link": "https://www.vrgroup.fi/fi/"
     },
     "France": {
         "Rail Company": "SNCF VOYAGEURS",
@@ -59,14 +62,16 @@
             "Austria",
             "UK"
         ],
-        "Unavailable Online Ticketing": []
+        "Unavailable Online Ticketing": [],
+        "link": "https://www.sncf.com/fr"
     },
     "Slovenia": {
         "Rail Company": "Slovenian Railways-Passenger Transport",
         "Available Online Ticketing": [
             "no"
         ],
-        "Unavailable Online Ticketing": []
+        "Unavailable Online Ticketing": [],
+        "link": "https://potniski.sz.si/"
     },
     "Germany": {
         "Rail Company": "DB Fernverkehr AG (Deutsche Bahn)",
@@ -88,7 +93,8 @@
             "Croatia",
             "Sweden"
         ],
-        "Unavailable Online Ticketing": []
+        "Unavailable Online Ticketing": [],
+        "link": "https://www.bahn.com/"
     },
     "UK": {
         "Rail Company": "Eurostar Group",
@@ -97,7 +103,8 @@
             "Belgium",
             "Netherlands"
         ],
-        "Unavailable Online Ticketing": []
+        "Unavailable Online Ticketing": [],
+        "link": "https://www.eurostar.com/"
     },
     "Austria": {
         "Rail Company": "ÖBB-Personenverkehr AG",
@@ -112,14 +119,16 @@
             "Slovenia",
             "Poland"
         ],
-        "Unavailable Online Ticketing": []
+        "Unavailable Online Ticketing": [],
+        "link": "https://www.oebb.at/"
     },
     "Portugal": {
         "Rail Company": "CP – COMBOIOS DE PORTUGAL, E.P.E.",
         "Available Online Ticketing": [
             "Spain"
         ],
-        "Unavailable Online Ticketing": []
+        "Unavailable Online Ticketing": [],
+        "link": "https://www.cp.pt/"
     },
     "Hungary": {
         "Rail Company": "MÁV-START",
@@ -135,7 +144,8 @@
             "Romania",
             "Serbia"
         ],
-        "Unavailable Online Ticketing": []
+        "Unavailable Online Ticketing": [],
+        "link": "https://www.mavcsoport.hu/"
     },
     "Sweden": {
         "Rail Company": "SJ AB",
@@ -146,7 +156,8 @@
         ],
         "Unavailable Online Ticketing": [
             "Finland"
-        ]
+        ],
+        "link": "https://www.sj.se/"
     },
     "Poland": {
         "Rail Company": "PKP INTERCITY S.A.",
@@ -160,7 +171,8 @@
             "Lithuania",
             "Belarus"
         ],
-        "Unavailable Online Ticketing": []
+        "Unavailable Online Ticketing": [],
+        "link": "https://www.intercity.pl/"
     },
     "Italy": {
         "Rail Company": "Trenitalia S.p.A.",
@@ -170,7 +182,8 @@
             "Austria",
             "Germany"
         ],
-        "Unavailable Online Ticketing": []
+        "Unavailable Online Ticketing": [],
+        "link": "https://www.trenitalia.com/"
     },
     "Denmark": {
         "Rail Company": "DSB",
@@ -178,7 +191,8 @@
             "Germany",
             "Sweden"
         ],
-        "Unavailable Online Ticketing": []
+        "Unavailable Online Ticketing": [],
+        "link": "https://www.dsb.dk/"
     },
     "Slovakia": {
         "Rail Company": "ZSSK",
@@ -189,14 +203,16 @@
             "Poland",
             "Ukraine"
         ],
-        "Unavailable Online Ticketing": []
+        "Unavailable Online Ticketing": [],
+        "link": "https://www.zssk.sk/"
     },
     "Croatia": {
         "Rail Company": "HŽ Passenger Transpport",
         "Available Online Ticketing": [],
         "Unavailable Online Ticketing": [
             "Serbia", "Bosnia and Herzegovina"
-        ]
+        ],
+        "link": "https://www.hzpp.hr/"
     },
     "Czechia": {
         "Rail Company": "Czech Railways",
@@ -220,7 +236,8 @@
             "Switzerland",
             "Ukraine"
         ],
-        "Unavailable Online Ticketing": []
+        "Unavailable Online Ticketing": [],
+        "link": "https://www.cd.cz/"
     },
     "Switzerland": {
         "Rail Company": "SBB",
@@ -240,7 +257,8 @@
             "Croatia",
             "Spain"
         ],
-        "Unavailable Online Ticketing": []
+        "Unavailable Online Ticketing": [],
+        "link": "https://www.sbb.ch/"
     },
     "Greece": {
         "Rail Company": "HELLENIC TRAIN SA",
@@ -248,7 +266,8 @@
         "Unavailable Online Ticketing": [
             "Bulgaria",
             " North Macedonia, Albania"
-        ]
+        ],
+        "link": "https://www.hellenictrain.gr/"
     },
     "Spain": {
         "Rail Company": "Renfe",
@@ -256,6 +275,7 @@
             "Portugal",
             "France"
         ],
-        "Unavailable Online Ticketing": []
+        "Unavailable Online Ticketing": [],
+        "link": "https://www.renfe.com/"
     }
 }
