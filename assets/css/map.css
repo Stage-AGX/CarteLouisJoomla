@@ -542,7 +542,7 @@ a:hover {
     height: 0;
     padding-bottom: 35%;
     padding-top: 45%;
-    margin-top: 15%;
+    margin-top: 10%;
     margin-left: 5%;
   }
 
@@ -715,9 +715,12 @@ a:hover {
   .full-container {
     overflow: hidden;
     align-items: center;
-    height: 50vh;
-    width: 50vh;
+    min-height: 60vh;
+    width: 100%;
     margin-top: -1vh;
+    display: flex;
+    flex-direction: column;
+
   }
   div[itemprop="articleBody"].articleBody {
     display: flex;
@@ -748,13 +751,10 @@ a:hover {
     border-top-right-radius: 50% 70%;
   }
   .content-wrapper {
-    z-index: 1;
-    width: 30vw;
+    width: 25vw;
     height: 100%;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 10vh;
+    display: flex;
+    flex-direction: column;
   }
   .text-top {
     margin-bottom: 50px;
@@ -762,15 +762,12 @@ a:hover {
   }
   .map-container {
     position: relative;
-    width: 200%;
-    height: 50%;
+    width: 100%;
+    height: 0;
     padding-bottom: 35%;
-    padding-top: 35%;
-    margin-left: -13%;
+    padding-top: 45%;
     margin-top: 10%;
-    cursor: pointer;
-    user-select: none;
-    touch-action: none;
+    margin-left: 35%;
   }
 
   #click-text {
@@ -790,7 +787,7 @@ a:hover {
   #interactive-map svg {
     width: 100%;
     height: 100%;
-    margin-left: -25%;
+    margin-left: -35%;
   }
 
   #interactive-map {
