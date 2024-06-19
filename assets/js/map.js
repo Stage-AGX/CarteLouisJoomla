@@ -64,21 +64,21 @@ document.addEventListener('DOMContentLoaded', function () {
             popupTargetY = 70;
         }
         else if (screenWidth < 1664 && screenWidth >= 1070) {
-            popupTargetX = -20; // for small screens
+            popupTargetX = -5; // for small screens
             popupTargetY = 30;
         }
         else if (screenWidth < 1070){
-            popupTargetX = -20; 
+            popupTargetX = -5; 
             popupTargetY = 10;
         }
          else if (screenWidth <= 2559 && screenWidth >= 1664) {
-            popupTargetX = 450; // for medium screens
+            popupTargetX = 80; // for medium screens
             popupTargetY = 50;
         } 
         
         return { x: popupTargetX, y: popupTargetY };
     }
-
+    
     const paths = document.querySelectorAll('#interactive-map path');
     const popup = document.getElementById('popup');
     const popupCountry = document.getElementById('popup-country');
@@ -161,8 +161,11 @@ document.addEventListener('DOMContentLoaded', function () {
                     if (data[countryName]) {
 
                         const clickText = document.getElementById('click-text');
-                        clickText.style.display = 'none';
-
+                        const infoIcon = document.querySelector('.info-icon');
+                        clickText.style.color = 'transparent';
+                        infoIcon.style.color = 'transparent';
+                        infoIcon.style.backgroundColor = 'transparent';
+                        infoIcon.style.border = 'transparent';
                         const legenBlock = document.querySelectorAll('.info-block');
                         legenBlock.forEach(legenBlock => {
                             legenBlock.style.display = 'flex';
@@ -298,7 +301,12 @@ document.addEventListener('DOMContentLoaded', function () {
                             legenBlock.style.display = 'none';
                         });
                         const clickText = document.getElementById('click-text');
-                        clickText.style.display = 'flex';
+                        const infoIcon = document.querySelector('.info-icon');
+                        clickText.style.removeProperty('color');
+                        infoIcon.style.color = '#003399';
+                        infoIcon.style.backgroundColor = 'white';
+                        infoIcon.style.border = '2px solid #003399';
+
                     }
                 })
                 .catch(error => {
@@ -323,9 +331,12 @@ document.addEventListener('DOMContentLoaded', function () {
             legenBlock.forEach(legenBlock => {
                 legenBlock.style.display = 'none';
             });
-
             const clickText = document.getElementById('click-text');
-            clickText.style.display = 'flex';
+            const infoIcon = document.querySelector('.info-icon');
+            clickText.style.removeProperty('color');
+            infoIcon.style.color = '#003399';
+            infoIcon.style.backgroundColor = 'white';
+            infoIcon.style.border = '2px solid #003399';
             countrySelected = false;
             popup.classList.add('hidden');
             document.getElementById('popup-line').classList.add('hidden');
