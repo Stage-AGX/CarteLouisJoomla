@@ -489,7 +489,7 @@ a:hover {
     z-index: 1000 !important;
   }
 
-  .full-container {
+  /* .full-container {
     overflow: hidden;
     align-items: center;
     min-height: 60vh;
@@ -497,7 +497,7 @@ a:hover {
     margin-top: -1vh;
     display: flex;
     flex-direction: column;
-  }
+  } */
   div[itemprop="articleBody"].articleBody {
     display: flex;
     justify-content: center;
@@ -712,7 +712,7 @@ a:hover {
     z-index: 1000;
   }
 
-  .full-container {
+  /* .full-container {
     overflow: hidden;
     align-items: center;
     min-height: 60vh;
@@ -721,7 +721,8 @@ a:hover {
     display: flex;
     flex-direction: column;
 
-  }
+  } */
+
   div[itemprop="articleBody"].articleBody {
     display: flex;
     justify-content: center;
