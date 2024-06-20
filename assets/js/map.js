@@ -60,8 +60,8 @@ document.addEventListener('DOMContentLoaded', function () {
         
         // Example logic to adjust position based on screen size
         if (screenWidth >= 2560) {
-            popupTargetX = 300; // for large screens
-            popupTargetY = 70;
+            popupTargetX = 100; // for large screens
+            popupTargetY = 20;
         }
         else if (screenWidth < 1664 && screenWidth >= 1070) {
             popupTargetX = -5; // for small screens
@@ -314,7 +314,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 });
         });
     });
-
+    
     document.addEventListener('click', function (event) {
         if (!event.target.closest('path') && !event.target.closest('.popup')) {
             // Hide all lines
