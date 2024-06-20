@@ -6,7 +6,7 @@
             "Germany",
             "France",
             "Denmark",
-            "Luxemburg",
+            "Luxembourg",
             "Austria",
             "Italy",
             "Czechia",
@@ -23,7 +23,7 @@
         "Unavailable Online Ticketing": [],
         "link": "https://www.ns.nl/"
     },
-    "Luxemburg": {
+    "Luxembourg": {
         "Rail Company": "CFL",
         "Available Online Ticketing": [
             "Belgium",
@@ -79,19 +79,20 @@
             "Austria",
             "Switzerland",
             "France",
-            "Luxemburg",
+            "Luxembourg",
             "Netherlands",
             "Belgium",
             "Denmark",
             "Czechia",
             "Poland",
             "Italy",
-            "Spain",
             "Hungary",
             "Slovakia",
             "Slovenia",
             "Croatia",
-            "Sweden"
+            "Sweden",
+            "UK",
+            "Ukraine"
         ],
         "Unavailable Online Ticketing": [],
         "link": "https://www.bahn.com/"
@@ -101,7 +102,8 @@
         "Available Online Ticketing": [
             "France",
             "Belgium",
-            "Netherlands"
+            "Netherlands",
+            "Germany"
         ],
         "Unavailable Online Ticketing": [],
         "link": "https://www.eurostar.com/"
@@ -117,7 +119,15 @@
             "Hungary",
             "Croatia",
             "Slovenia",
-            "Poland"
+            "Poland",
+            "France",
+            "Luxembourg",
+            "Netherlands",
+            "Belgium",
+            "Denmark",
+            "Sweden",
+            "Ukraine",
+            "Romania"
         ],
         "Unavailable Online Ticketing": [],
         "link": "https://www.oebb.at/"
@@ -136,6 +146,10 @@
             "Austria",
             "Germany",
             "Switzerland",
+            "Belgium",
+            "Netherlands",
+            "Luxembourg",
+            "Denmark",
             "Czechia",
             "Slovakia",
             "Poland",
@@ -150,9 +164,15 @@
     "Sweden": {
         "Rail Company": "SJ AB",
         "Available Online Ticketing": [
-            "Norway",
             "Denmark",
-            "Germany"
+            "Germany",
+            "Netherlands",
+            "France",
+            "Switzerland",
+            "Hungary",
+            "Czechia",
+            "Slovakia"
+
         ],
         "Unavailable Online Ticketing": [
             "Finland"
@@ -167,9 +187,7 @@
             "Austria",
             "Slovakia",
             "Hungary",
-            "Ukraine",
-            "Lithuania",
-            "Belarus"
+            "Lithuania"
         ],
         "Unavailable Online Ticketing": [],
         "link": "https://www.intercity.pl/"
@@ -189,7 +207,21 @@
         "Rail Company": "DSB",
         "Available Online Ticketing": [
             "Germany",
-            "Sweden"
+            "Sweden",
+            "Netherlands",
+            "Belgium",
+            "France",
+            "Switzerland",
+            "Austria",
+            "Czechia",
+            "Slovakia",
+            "Hungary",
+            "Luxembourg",
+            "Sweden",
+            "Slovakia",
+            "Norway",
+            "Romania",
+            "Italy"
         ],
         "Unavailable Online Ticketing": [],
         "link": "https://www.dsb.dk/"
@@ -201,7 +233,9 @@
             "Austria",
             "Hungary",
             "Poland",
-            "Ukraine"
+            "Ukraine",
+            "Germany",
+            "Switzerland"
         ],
         "Unavailable Online Ticketing": [],
         "link": "https://www.zssk.sk/"
@@ -248,7 +282,7 @@
             "Austria",
             "Belgium",
             "Netherlands",
-            "Luxemburg",
+            "Luxembourg",
             "Denmark",
             "Czech Republic",
             "Slovakia",
@@ -265,7 +299,7 @@
         "Available Online Ticketing": [],
         "Unavailable Online Ticketing": [
             "Bulgaria",
-            " North Macedonia, Albania"
+            "North Macedonia", "Albania"
         ],
         "link": "https://www.hellenictrain.gr/"
     },
